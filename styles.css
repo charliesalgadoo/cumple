@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #dfdfdf;
+  color: #1d1d1d;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  background: transparent;
+  border: 1px solid #5b63db60;
+  color: rgb(68, 68, 68);
+  padding: 12px 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+/* CARTA */
+.letter {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.text-block {
+  max-width: 700px;
+  line-height: 2;
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+/* RECUERDOS */
+.memories {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.memories h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 60px;
+}
+
+.memory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.memory-card {
+  border: 1px solid #ffffff20;
+  padding: 40px 20px;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+/* MENSAJE BONITO */
+.wish {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  opacity: 0.85;
+}
+
+/* FINAL */
+.final {
+  min-height: 50vh;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.final h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.final span {
+  opacity: 0.6;
+  letter-spacing: 2px;
+}

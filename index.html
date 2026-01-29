@@ -1,4 +1,60 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para ti</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="placeholder.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
-<h1>Hola mundo</h1>
+
+  <!-- 1. APERTURA -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hope u like this...</h1>
+      <button onclick="scrollToNext()">Ábrelo</button>
+    </div>
+  </section>
+
+  <!-- 2. CARTA -->
+  <section class="letter">
+    <div class="text-block">
+      <p>...</p>
+      <p>...</p>
+      <p>...</p>
+    </div>
+  </section>
+
+  <!-- 3. RECUERDOS / COSAS QUE TE GUSTAN -->
+  <section class="memories">
+    <h2>...</h2>
+
+    <div class="memory-grid">
+      <div class="memory-card">...</div>
+      <div class="memory-card">...</div>
+      <div class="memory-card">...</div>
+    </div>
+  </section>
+
+  <!-- 4. MENSAJE BONITO -->
+  <section class="wish">
+    <p>...</p>
+  </section>
+
+  <!-- 5. CIERRE -->
+  <section class="final">
+    <h2>Feliz cumpleaños</h2>
+    <span>— Charlie</span>
+  </section>
+
+<script>
+function scrollToNext() {
+  document.querySelector('.letter').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
 </body>
+</html>
